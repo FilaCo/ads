@@ -8,6 +8,11 @@
 
 ADS (Algorithms and Data Structures) is a set of useful generic production-ready algorithms and datastructures.
 
+## :warning: WARNING :warning:
+
+ADS is in the early stages of development. Important features are missing. Documentation is sparse. DO NOT USE until
+1.0.0 release
+
 ## License
 
 ADS is free, open source and permissively licensed!
