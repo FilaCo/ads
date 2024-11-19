@@ -6,7 +6,7 @@
 
 ## What is ADS?
 
-ADS (Algorithms and Data Structures) is a set of useful generic production-ready algorithms and datastructures.
+ADS (Algorithms and Data Structures) is a set of useful generic production-ready algorithms and data structures.
 
 ## :warning: WARNING :warning:
 
@@ -15,14 +15,10 @@ ADS is in the early stages of development. Important features are missing. Docum
 
 ## License
 
-ADS is free, open source and permissively licensed!
-Except where noted (below and/or in individual files), all code in this repository is dual-licensed under either:
+ADS source code is dual-licensed under either of:
 
 * MIT License ([LICENSE-MIT](LICENSE-MIT) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
 * Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE)
   or [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0))
 
 at your option.
-This means you can select the license you prefer!
-This dual-licensing approach is the de-facto standard in the Rust ecosystem and there
-are [very good reasons](https://github.com/bevyengine/bevy/issues/2373) to include both.

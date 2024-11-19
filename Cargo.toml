@@ -2,5 +2,14 @@
 name = "ads"
 version = "0.1.0"
 edition = "2021"
+authors = ["FilaCo <awesome.chekushka@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["algorithms", "data-structures"]
+repository = "https://github.com/FilaCo/ads"
+documentation = "https://docs.rs/ads"
+description = "ADS (Algorithms and Data Structures) is a set of useful generic production-ready algorithms and data structures."
+categories = ["algorithms", "data-structures"]
+exclude = [".github/", ".husky/", ".commitlintrc.json", "package-*.json"]
 
 [dependencies]
