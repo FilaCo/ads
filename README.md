@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/FilaCo/ads#license)
 [![CI](https://github.com/FilaCo/ads/workflows/CI/badge.svg)](https://github.com/FilaCo/ads/actions)
+[![crate](https://img.shields.io/crates/v/ads-rs.svg)](https://crates.io/crates/ads-rs)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/FilaCo/ads)
 
