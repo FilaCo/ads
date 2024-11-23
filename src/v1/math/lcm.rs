@@ -3,7 +3,7 @@ use crate::v1::math::gcd_many;
 /// Finds the LCM (Least Common Multiple) for an array of elements.
 /// # Examples
 /// ```
-/// use ads::prelude::v1::math::lcm_many;
+/// use ads_rs::prelude::v1::math::lcm_many;
 ///
 /// let res0 = lcm_many(&[42, 8, 144]);
 /// let res1 = lcm_many(&[89, 144, 233, 377, 610]);
@@ -17,7 +17,7 @@ use crate::v1::math::gcd_many;
 /// - LCM of an empty array equals 0.
 /// - LCM of a single element array equals that element.
 /// ```
-/// use ads::prelude::v1::math::lcm_many;
+/// use ads_rs::prelude::v1::math::lcm_many;
 ///
 /// let res0 = lcm_many(&[]);
 /// let res1 = lcm_many(&[25]);
@@ -52,7 +52,7 @@ pub fn lcm_many(elems: &[u64]) -> u64 {
 /// Finds an LCM (Least Common Multiple) for a pair of numbers.
 /// # Examples
 /// ```
-/// use ads::prelude::v1::math::lcm;
+/// use ads_rs::prelude::v1::math::lcm;
 ///
 /// let res0 = lcm(42, 144);
 /// let res1 = lcm(377, 610);
@@ -65,7 +65,7 @@ pub fn lcm_many(elems: &[u64]) -> u64 {
 /// ## Corner case
 /// LCM of both zero numbers equals 0.
 /// ```
-/// use ads::prelude::v1::math::lcm;
+/// use ads_rs::prelude::v1::math::lcm;
 ///
 /// let res = lcm(0, 0);
 ///

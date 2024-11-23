@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "ads"
+name = "ads-rs"
 version = "0.1.0"

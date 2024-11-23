@@ -3,7 +3,7 @@ use std::mem::{replace, swap};
 /// Finds the GCD (Greatest Common Divisor) for an array of elements.
 /// # Examples
 /// ```
-/// use ads::prelude::v1::math::gcd_many;
+/// use ads_rs::prelude::v1::math::gcd_many;
 ///
 /// let res0 = gcd_many(&[42, 8, 144]);
 /// let res1 = gcd_many(&[89, 144, 233, 377, 610]);
@@ -17,7 +17,7 @@ use std::mem::{replace, swap};
 /// - GCD of an empty array equals 0.
 /// - GCD of a single element array equals that element.
 /// ```
-/// use ads::prelude::v1::math::gcd_many;
+/// use ads_rs::prelude::v1::math::gcd_many;
 ///
 /// let res0 = gcd_many(&[]);
 /// let res1 = gcd_many(&[25]);
@@ -73,7 +73,7 @@ pub fn gcd_many(elems: &[u64]) -> u64 {
 /// holds.
 /// # Examples
 /// ```
-/// use ads::prelude::v1::math::extended_gcd;
+/// use ads_rs::prelude::v1::math::extended_gcd;
 ///
 /// let res0 = extended_gcd(30, 20);
 /// let res1 = extended_gcd(15, 35);
@@ -87,7 +87,7 @@ pub fn gcd_many(elems: &[u64]) -> u64 {
 /// - Result of `extended_gcd(0, 0)` equals tuple `(0, 1, 0)`.
 /// - Negative numbers is not supported, but implementation allows it.
 /// ```
-/// use ads::prelude::v1::math::extended_gcd;
+/// use ads_rs::prelude::v1::math::extended_gcd;
 ///
 /// let res = extended_gcd(0, 0);
 ///
@@ -119,7 +119,7 @@ pub fn extended_gcd(lhs: u64, rhs: u64) -> (u64, i64, i64) {
 /// Finds an GCD (Greatest Common Divisor) for a pair of numbers.
 /// # Examples
 /// ```
-/// use ads::prelude::v1::math::gcd;
+/// use ads_rs::prelude::v1::math::gcd;
 ///
 /// let res0 = gcd(42, 144);
 /// let res1 = gcd(377, 610);
@@ -132,7 +132,7 @@ pub fn extended_gcd(lhs: u64, rhs: u64) -> (u64, i64, i64) {
 /// ## Corner case
 /// GCD of both zero numbers equals 0.
 /// ```
-/// use ads::prelude::v1::math::gcd;
+/// use ads_rs::prelude::v1::math::gcd;
 ///
 /// let res = gcd(0, 0);
 ///
